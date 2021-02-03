@@ -11,33 +11,23 @@
 
 <style>
 
-/*  CHROME: large-screens: iPad Pro, etc */
+
 @media only screen and (min-width: 960px){
-/* body{
-background-color: rgb(245, 241, 190);
-} */
 .container{
 width: 1024px;
 }
 }
 
-/*  CHROME: mobile-screens: iPad, etc  */
 @media only screen and (max-width: 960px){
-/* body{
-background-color: rgb(105, 240, 172);
-} */
 .container{
 width: 600px;
 }
 }
 
-/* CHROME: mobile-screens:
-iPhone X, iPhone 6/7/8 Plus, iPhone 6/7/8, Pixel 2 XL, Pixel 2, Galaxy S5-S9, Moto G4, Surface Duo
-*/
 @media only screen and (max-width: 600px){
-/* body{
+body{
 background-color: rgb(236, 29, 29);
-}  */
+}
 .container{
 width: 100%;
 }
@@ -46,13 +36,13 @@ display: block;
 width: 100%;
 }
 .header{
-padding-left: 9px !important;
+padding-left: 59px !important;
 }
 .title{
 text-align: center !important;
 width: 100%;
 text-align: center !important;
-padding: 0px 0px 18px 110px !important;
+padding: 0px 0px 18px 140px !important;
 }
 .group-img{
 width: 100%;
@@ -71,8 +61,6 @@ padding: 0px 118px 0 103px !important;
 } 
 }
 
-
-/*  CHROME: XS-mobile-screens:  iPhone 5/SE , Galaxy Fold */
 @media only screen and (max-width: 425px){
 body{
 background-color: rgb(71, 31, 252);
@@ -81,22 +69,25 @@ background-color: rgb(71, 31, 252);
 width: 100%;
 }
 .header{
-text-align: left;
+text-align: left !important;
 padding: 0px !important;
 }
 .logo{
-width: 100%;
-DISPLAY: INLINE-BLOCK;
-MARGIN: 0 -16px 0 0;
+width: 163%;
+float: left !important;
+display: block;
+margin: 0 0 0 -18px;
+padding: 0px;
 }
 .springboard-insider{
-width: 100%;
-font-size: 18px !important;
+width: fit-content !important;
+font-size: 15px !important;
+padding: 0px 0 0px -5px;
 }
 .title{
 float: right;
-width:  55%;
-padding: 0px 47px 0px 147px !important;
+width:  74%;
+padding: 0px 47px -1px 147px !important;
 }
 .man-img{
 width: 94%;
@@ -104,7 +95,7 @@ height: auto;
 }
 .gray-header{
 text-align: center !important;
-padding: 0px 0px 0px 0px !important;
+padding: 0px !important;
 } 
 
 }
@@ -124,7 +115,7 @@ padding: 0px 0px 0px 0px !important;
           <tr> 
             <td>
                <!-- START: EMAIL BODY -->
-               <table class="email-body" width="600" align="center"  border-width="0" cellspacing="0" cellpadding="0" style=" border: 5px solid rgb(29, 4, 41); background-color:white " >
+               <table class="email-body" width="600" align="center"  border-width="0" cellspacing="0" cellpadding="0" style="background-color:white " >
 
                       <!--  1ST ROW START: TOP HEADER -->
                       <tr>
