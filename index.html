@@ -13,49 +13,128 @@
 
 
     /* ------------------
-        large-screens
-    ------------------ */
-    @media only screen and (min-width: 960px){
-    
-    }
-    /* ------------------
-       midsize-screens
-    ------------------ */
-    @media only screen and (max-width: 960px){
-
-    table,td, tr {
-    display: block;
-    width: 100%;
-    } 
-    .container{
-    width: 600px;
-    }
-    }
-    /* ------------------
        mobile-screens
     ------------------ */
-    @media only screen and (max-width: 600px){
-    table, tr {
-    display: block;
-    width: 100%;
-    } 
-    .container{
-    width: 100%;
-    }
-    }
+    /* @media only screen and (max-width: 600px){
+           table, tr {
+          display: block;
+          width: 100%;
+          } 
+          .container{
+          width: 100%;
+          } 
+    } */
+
+
     /* ------------------
       xs mobile -screens
     ------------------ */
-    @media only screen and (max-width: 425px){
-    /* table, tr {
-    display: block;
-    width: 100%;
-    }  */
-    .container{
-    width: 100%;
-    }
-    }
+    /* @media only screen and (max-width: 425px){
+         table, tr {
+        display: block;
+        width: 100%;
+        }  
+        .container{
+        width: 100%;
+        }  
+    } */
     
+
+
+          /* ------------------
+            mobile-screens
+          ------------------ */
+          @media screen and (max-width: 600px) and (min-width: 500px){
+             .group-img{
+              width: 90%;
+              margin: 0 0 0 19px;
+            } 
+            .email-body{
+              width: 550px;
+              margin: 0 0 0 18px;
+            } 
+            .updates img{
+              width: 90%;
+            } 
+
+        }
+
+
+          /* ------------------
+            xs mobile -screens
+          ------------------ */
+        @media screen and (max-width: 499px) and (min-width: 400px) {
+
+            .container{
+              width: 96%;
+              font-size: 10px;
+              margin: 0 0 0 -4px;
+            }
+            .header{
+              padding: 0 0 0 31px !important;
+            }
+            .header td{
+              padding: 0 0 0 12px !important;
+            }
+            .group-img{
+              width: 100%;
+            } 
+            .man-img{
+              width: 98%;
+            }
+            .updates img{
+              width: 100%;
+            } 
+            .email-body{
+              width: 100%;
+              margin: 0 0 0 15px;
+            } 
+            .links tbody p{
+              font-size: 13.5px;
+              margin: 0 41px 0 0;
+            }
+            .gray-header td{
+              padding: 0 53px 0 0;
+            } 
+
+        }
+
+
+        @media screen and (max-width: 399px) and (min-width: 300px) { 
+            .container{
+              width: 96%;
+              font-size: 10px;
+              margin: 0 0 0 -7px;
+            }
+            .header{
+              padding: 0 0 0 31px !important;
+            }
+            .header td{
+              padding: 0 0 0 2px !important;
+            }
+            .group-img{
+              width: 100%;
+            } 
+            .man-img{
+              width: 98%;
+            }
+            .updates img{
+              width: 100%;
+            } 
+            .email-body{
+              width: 100%;
+              margin: 0 0 0 15px;
+            } 
+            .links tbody p{
+              font-size: 13.5px;
+              margin: 0 41px 0 0;
+            }
+            .gray-header td{
+              padding: 0 53px 0 0;
+            } 
+       }
+
+
   </style> 
   </head>
     
@@ -74,7 +153,7 @@
                             <!--  1ST ROW START: TOP HEADER -->
                             <tr>
                               <td>
-                                <table  class="header" width="100%" align="Left"  cellspacing="0" cellpadding="0" border-with="0" style=" display: block; padding-left: 89px; margin: 0px; background-color: white; font-family: 'Roboto Condensed', sans-serif; ">
+                                <table  class="header" width="100%" align="Left"  cellspacing="0" cellpadding="0" border-with="0" style=" display: block; padding-left: 89px; margin: 0px 0 -16px 0; background-color: white; font-family: 'Roboto Condensed', sans-serif; ">
                                   <tr>
                                     <td style="padding-left: 86px; " >
                                         <a href="#" ><img  class="logo" src="https://i.postimg.cc/vBrbJZtv/SPRINGBOARD-LOGO.png" alt="header" ></a>          
