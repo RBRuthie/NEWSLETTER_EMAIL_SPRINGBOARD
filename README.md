@@ -6,7 +6,7 @@
 <table>
   <tr>
     <td>Main Section of Email</td>
-     <td>Middle Section of Email</td>
+     <td>Middle-top Section of Email</td>
      <td>Middle Section of Email</td>
      <td>Bottom Section of Email</td>
   </tr>
