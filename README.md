@@ -1,6 +1,6 @@
 # Springboard_Newsletter_HTML_Email_Responsive
   Recreated a responsive newsletter email from Springboard Bootcamp using:
-  HTML - CSS
+  HTML / CSS
 
 
 <table>
